@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+    --main-text-color: #313131
+}
+
+body {
+    
+}
+
+
+
+header {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-image: url(/image/welcome-bg.png);
+    background-size: cover;
+}
+
+.container {
+    margin: 0 346px 0 346px;
+}
+
+
+
+.logo {
+    display: flex;
+    gap: 6px;
+    text-transform: uppercase;
+    padding-top: 26px;
+
+}
+
+
+
+.welcome__container {
+    padding-top: 62px;
+}
+
+.welcome__info{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.welcome__info p{
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 130%;
+    padding-top: 26px;
+
+}
+
+/* сдлеать шрифты переменными */
+
+.welcome__info h1:nth-last-child(3){
+    padding-left: 94px;
+}
+
+.welcome__info h1:nth-last-child(2){
+    padding-left: 38px;
+}
+
+.welcome__buttons {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Golos Text", sans-serif;
+}
+
+.welcome__buttons button {
+    padding: 20px 49px;
+    border-radius: 66px;
+    width: 263px;
+}
+
+.welcome__buttons button:first-child {
+    background-color: #1F1F1F;
+    color: #fff;
+}
+
+.welcome__buttons button:last-child {
+    border: 1px solid var(--main-text-color);
+    color: #1F1F1F;
+}
