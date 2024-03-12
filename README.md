@@ -1,1 +1,3 @@
-# yandex_test_task
+# yandex_test_task - сайт для шахматного клуба
+
+Состояние - Не доделан
